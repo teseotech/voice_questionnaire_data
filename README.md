@@ -15,7 +15,7 @@ affiliated with
 [Zenabyte](https://www.zenabyte.com/), and
 the [Department of Informatics, Bioengineering, Robotics and Systems Engineering](https://dibris.unige.it/) of the University of Genoa.
 The paper has been submitted to the 
-[International Journal of Social Robotics](https://unige.it/en/) 
+[International Journal of Social Robotics](https://www.springer.com/journal/12369) 
 on March 2022.
 
 ---
