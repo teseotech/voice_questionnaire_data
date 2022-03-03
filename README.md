@@ -5,7 +5,7 @@
 
 This repository contains the data collected to present the evaluation detailed in the paper entitled 
 *Polite Machines Do It Better? A Language-Based Study on Perceived Politeness and Persuasiveness of Virtual Assistants*,
-which author are 
+which authors are 
 *Marta Cristofanini*, 
 *Luca Buoncompagni*, 
 *Irene Buselli* and 
@@ -14,22 +14,22 @@ affiliated with
 [Teseo](https://teseo.tech/),
 [Zenabyte](https://www.zenabyte.com/), and
 the [Department of Informatics, Bioengineering, Robotics and Systems Engineering](https://dibris.unige.it/) of the University of Genoa.
-The paper is submitted to the 
+The paper has been submitted to the 
 [International Journal of Social Robotics](https://unige.it/en/) 
 on March 2022.
 
 ---
 
-The data are agonized as a CSV file where the first columns indicate
+The data are organized as a CSV file, where the first columns indicate
  - timestamp,
  - age,
  - gender,
  - education.  
  -  ... ,
- - the last column indicates if the questionnaire involve a human voice (*i.e.*, Eva) or synthetic voice (*i.e.*, Polly).
+ - the last column indicates if the questionnaire rely on a human voice (*i.e.*, Eva) or synthetic voice (*i.e.*, Polly).
 
-The not specified columns contains the judgments that users made of audio recommendations that focus on Activities of Daily Living (ADL).
-In particular, the recommendations that 
-[Polly](https://forms.gle/cLz5KMvqcFTMZUq79) and 
-[Eva](https://forms.gle/LqSbmqD8SthGBBaf9) 
-provide have been stored in the CSV with the same order as presented in the refereed questionnaires.
+The not specified columns contains the judgments of audio recommendations that users made.
+The recommandations focus on the Activities of Daily Living (ADL), and the CSV preserves the order in which they are presented in the
+[Polly](https://forms.gle/cLz5KMvqcFTMZUq79)'s and 
+[Eva](https://forms.gle/LqSbmqD8SthGBBaf9)'s 
+questionnaire.
