@@ -74,7 +74,7 @@ The recommendations are organized by intents and strategies, and they are ordere
 |      28-29    |        D-HP         |         Anche se ti sembra di non avere sete, dovresti bere un po’!         |      Even if you don't feel thirsty, you should drink a little!     |
 |      30-31    |        PH-HP        |        Potremmo provare a passare un attimo dal bagno adesso, ti va?        |        We could try to go through the bathroom now, shall we?       |
 |      32-33    |        PH-OS        |                          Prova ad andare in bagno.                          |                      Try to go to the bathroom.                     |
-|      34-35    |        BH-H         |                  Che ne dici di provare ad andare in bagno?                 |                How about trying to go to the toilet?                |
+|      34-35    |        PH-H         |                  Che ne dici di provare ad andare in bagno?                 |                How about trying to go to the toilet?                |
 |      36-37    |        PH-QP        |                  Potresti provare ad andare in bagno, ora?                  |                Could you try to go to the toilet now?               |
 |       38      |        B-HP         |     Mi sembra tu stia andando in bagno molte volte oggi, va tutto bene?     | You seem to be going to the bathroom a lot today, is everything OK? |
 |       39      |        B-OS         |                    Oggi stai passando molto per il bagno.                   |              You are going to the bathroom a lot today.             |
