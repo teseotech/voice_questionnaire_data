@@ -21,7 +21,7 @@ Please, check the paper for more details about the data and our findings.
 ## Introduction
 We proposed a questionnaire regarding audio-based recommendations for elderly people, which concerned the Activities of Daily Living (ADL), to 40 Italian volunteers.
 During the questionaries, volunteers judge the politeness and persuasiveness of sentences spoken by a human (i.e., `Eva`) and synthetic (i.e., `Polly`) voice.
-The sentences give recommendations for maintaining a healthy lifestyle, and the questionnaires are available [here](https://forms.gle/RnecqG72HfSCGHfYA) for `Eva`'s voice, and [here](https://forms.gle/bPzJw88PMqJ5siPr7), for `Polly`.
+The sentences give recommendations for maintaining a healthy lifestyle, and the questionnaires are available [here](https://forms.gle/wYMaddQdEXF8Ek8i6) for `Eva`'s voice, and [here](https://forms.gle/bPzJw88PMqJ5siPr7), for `Polly`.
 
 We design recommendations based on different types of communication **strategies**, i.e.,
  - `HP`: Hedged Performatives, 
