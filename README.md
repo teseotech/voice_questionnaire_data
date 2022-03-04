@@ -39,10 +39,10 @@ In addition, we design recommendations based on different **intents**, i.e.,
  - `S`: Sleep.
 
 We create 28 recommendations, namely one for each *strategy-intent* combination.
-Then we asked the volunteers to rate with a 5-items scale (i.e., `1..5`) the **politeness** of each recommendation, while its **persuasiveness** was rated with a 2-item scale (i.e., `Si` or `No`) representing if the person would follow the recommendation.
+Then we asked the volunteers to rate with a 5-items scale (i.e., `1..5`) the **politeness** of each recommendation, while its **persuasiveness** was rated with a 2-item scale (i.e., `Sì` or `No`) representing if the person would follow the recommendation.
 
 ## Data Structure
-The data collected from the questionnaires is available in a [](CSV file), which columns are organized as follow:
+The data collected from the questionnaires is available in a [CSV file](https://github.com/teseotech/voice_questionnaire_data/blob/main/QuestionnaireRawData.csv), which columns are organized as follow:
  1. filling **time stamp**, in the format `day/month/year hour:min:sec`,
  2. **age**, i.e., `18-25`, `25-35`, `35-45`, `45-55`, `55-65` or `over 65`,
  3. **gender**, i.e., `Femminile` (female) or `Maschile` (male),
