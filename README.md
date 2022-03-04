@@ -56,37 +56,39 @@ However, we did not ask to judge the persuasiveness for the recommendations invo
 ### Recommendations
 It follows the list of recommendations in Italians, and the relative English translation.
 The recommendations are organized by intents and strategies.
-It is worth noticing that the list below also indicates the number of the CSV column(s) related to each recommendation.
+The recommendations are organized by intents and strategies, and they are ordered based on CSV column(s).
 
-| **Column(s)** | **Intent-Strategy** |                          **Italian Recommendation**                         |                        **English Translation**                       |
-|:----------:|:------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-|     6-7    |      W-H     |               Che ne diresti di andare a fare una passeggiata?              |                     How about going for a walk?                     |
-|     8-9    |     W-OS     |                         Vai a fare una passeggiata.                         |                            Go for a walk.                           |
-|    10-11   |     W-QP     |                        Potresti andare a passeggiare?                       |                       Could you go for a walk?                      |
-|    12-13   |     W-HP     |                 Potremmo andare a camminare un po’ se ti va!                |             We could go for a little walk if you’d like!            |
-|    14-15   |     E-QP     |                       È ora di pranzo, mangi qualcosa?                      |               It's lunchtime, will you eat something?               |
-|    16-17   |     E-HP     |           Si potrebbe mangiare qualcosa se ti va, è ora di pranzo.          |         You could eat something if you like, it's lunchtime.        |
-|    18-19   |     E-OS     |                      È ora di pranzo, mangia qualcosa.                      |                    It’s lunchtime, eat something.                   |
-|    20-21   |      E-H     |               Che ne dici di mangiare adesso? È ora di pranzo!              |                How about eating now? It's lunchtime!                |
-|    22-23   |     D-QP     |                              Ti va dell’acqua?                              |                      Would you like some water?                     |
-|    24-25   |     D-OS     |                             Bevi un po’ d’acqua.                            |                          Drink some water.                          |
-|    26-27   |      D-H     |                       Che ne dici di bere dell’acqua?                       |                      How about drinking water?                      |
-|    28-29   |     D-HP     |         Anche se ti sembra di non avere sete, dovresti bere un po’!         |      Even if you don't feel thirsty, you should drink a little!     |
-|    30-31   |     PH-HP    |        Potremmo provare a passare un attimo dal bagno adesso, ti va?        |        We could try to go through the bathroom now, shall we?       |
-|    32-33   |     PH-OS    |                          Prova ad andare in bagno.                          |                      Try to go to the bathroom.                     |
-|    34-35   |     BH-H     |                  Che ne dici di provare ad andare in bagno?                 |                How about trying to go to the toilet?                |
-|    36-37   |     PH-QP    |                  Potresti provare ad andare in bagno, ora?                  |                Could you try to go to the toilet now?               |
-|     38     |     B-HP     |     Mi sembra tu stia andando in bagno molte volte oggi, va tutto bene?     | You seem to be going to the bathroom a lot today, is everything OK? |
-|     39     |     B-OS     |                    Oggi stai passando molto per il bagno.                   |              You are going to the bathroom a lot today.             |
-|     40     |      B-H     |                     Sei spesso in bagno oggi o sbaglio?                     |        You are going to the bathroom a lot today, aren't you?       |
-|     41     |     B-QP     |                      Stai andando molto in bagno oggi?                      |              Are you going to the bathroom a lot today?             |
-|    42-43   |     F-OS     |                    Mentre avviso i soccorsi parla con me.                   |               While I'm calling for help, talk to me.               |
-|    44-45   |     F-HP     |        Ti chiederei, mentre avviso i soccorsi, di provare a parlarmi.       |    I would ask you, while I call for help, to try to talk to me.    |
-|    46-47   |     F-QP     |                 Mentre chiamo i soccorsi, parleresti con me?                |             Would you talk to me while I call for help?             |
-|    48-49   |      F-H     |              Riesci a parlare con me mentre chiamo i soccorsi?              |              Can you talk to me while I call for help?              |
-|    50-51   |      S-H     | Se non prendi sonno, che ne dici di provare a spostarti in un’altra stanza? |  If you don't get sleepy, how about trying to move to another room? |
-|    52-53     |     S-QP     |       Ti sposteresti in un’altra stanza per provare a prendere sonno?       |        Would you move to another room to try to get to sleep?       |
-|    54-55     |     S-OS     |           Prova a spostarti in un’altra stanza per prendere sonno.          |          Try moving to another room to try to get to sleep.         |
-|    56-57     |     S-HP     |       Se per prendere sonno provassimo a spostarci in un’altra stanza?      |  What about trying to move to another room to try to get to sleep?  |
+| **Column(s)** | **Intent-Strategy** |                          **Italian Recommendation**                         |                       **English Translation**                       |
+|:-------------:|:-------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+|       6-7     |        W-H          |               Che ne diresti di andare a fare una passeggiata?              |                     How about going for a walk?                     |
+|       8-9     |        W-OS         |                         Vai a fare una passeggiata.                         |                            Go for a walk.                           |
+|      10-11    |        W-QP         |                        Potresti andare a passeggiare?                       |                       Could you go for a walk?                      |
+|      12-13    |        W-HP         |                 Potremmo andare a camminare un po’ se ti va!                |             We could go for a little walk if you’d like!            |
+|      14-15    |        E-QP         |                       È ora di pranzo, mangi qualcosa?                      |               It's lunchtime, will you eat something?               |
+|      16-17    |        E-HP         |           Si potrebbe mangiare qualcosa se ti va, è ora di pranzo.          |         You could eat something if you like, it's lunchtime.        |
+|      18-19    |        E-OS         |                      È ora di pranzo, mangia qualcosa.                      |                    It’s lunchtime, eat something.                   |
+|      20-21    |        E-H          |               Che ne dici di mangiare adesso? È ora di pranzo!              |                How about eating now? It's lunchtime!                |
+|      22-23    |        D-QP         |                              Ti va dell’acqua?                              |                      Would you like some water?                     |
+|      24-25    |        D-OS         |                             Bevi un po’ d’acqua.                            |                          Drink some water.                          |
+|      26-27    |        D-H          |                       Che ne dici di bere dell’acqua?                       |                      How about drinking water?                      |
+|      28-29    |        D-HP         |         Anche se ti sembra di non avere sete, dovresti bere un po’!         |      Even if you don't feel thirsty, you should drink a little!     |
+|      30-31    |        PH-HP        |        Potremmo provare a passare un attimo dal bagno adesso, ti va?        |        We could try to go through the bathroom now, shall we?       |
+|      32-33    |        PH-OS        |                          Prova ad andare in bagno.                          |                      Try to go to the bathroom.                     |
+|      34-35    |        BH-H         |                  Che ne dici di provare ad andare in bagno?                 |                How about trying to go to the toilet?                |
+|      36-37    |        PH-QP        |                  Potresti provare ad andare in bagno, ora?                  |                Could you try to go to the toilet now?               |
+|       38      |        B-HP         |     Mi sembra tu stia andando in bagno molte volte oggi, va tutto bene?     | You seem to be going to the bathroom a lot today, is everything OK? |
+|       39      |        B-OS         |                    Oggi stai passando molto per il bagno.                   |              You are going to the bathroom a lot today.             |
+|       40      |        B-H          |                     Sei spesso in bagno oggi o sbaglio?                     |        You are going to the bathroom a lot today, aren't you?       |
+|       41      |        B-QP         |                      Stai andando molto in bagno oggi?                      |              Are you going to the bathroom a lot today?             |
+|      42-43    |        F-OS         |                    Mentre avviso i soccorsi parla con me.                   |               While I'm calling for help, talk to me.               |
+|      44-45    |        F-HP         |        Ti chiederei, mentre avviso i soccorsi, di provare a parlarmi.       |    I would ask you, while I call for help, to try to talk to me.    |
+|      46-47    |        F-QP         |                 Mentre chiamo i soccorsi, parleresti con me?                |             Would you talk to me while I call for help?             |
+|      48-49    |        F-H          |              Riesci a parlare con me mentre chiamo i soccorsi?              |              Can you talk to me while I call for help?              |
+|      50-51    |        S-H          | Se non prendi sonno, che ne dici di provare a spostarti in un’altra stanza? |  If you don't get sleepy, how about trying to move to another room? |
+|      52-53    |        S-QP         |       Ti sposteresti in un’altra stanza per provare a prendere sonno?       |        Would you move to another room to try to get to sleep?       |
+|      54-55    |        S-OS         |           Prova a spostarti in un’altra stanza per prendere sonno.          |          Try moving to another room to try to get to sleep.         |
+|      56-57    |        S-HP         |       Se per prendere sonno provassimo a spostarci in un’altra stanza?      |  What about trying to move to another room to try to get to sleep?  |
 
 ---
+
+Permanent link: [https://github.com/teseotech/voice_questionnaire_data](https://github.com/teseotech/voice_questionnaire_data).
