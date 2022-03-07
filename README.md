@@ -37,9 +37,9 @@ In addition, we design recommendations based on different **intents**, i.e.,
  - `B` Bathroom visits, 
  - `F` Falls, 
  - `S`: Sleep.
-
 We create 28 recommendations, namely one for each *strategy-intent* combination.
-Then we asked the volunteers to rate with a 5-items scale (i.e., `1..5`) the **politeness** of each recommendation, while its **persuasiveness** was rated with a 2-item scale, i.e., `Sì` (Yes) or `No`, representing if the person would follow the recommendation.
+We asked the volunteers to rate the **politeness** of each recommendation with a 5-items scale, i.e., `1..5` from the less to the most polite.
+Also, we asked to judge the **persuasiveness** of each recommendation with a 2-item scale, i.e., `Sì` (Yes) or `No`, representing if the person would follow the recommendation.
 
 ## Data Structure
 The data collected from the questionnaires is available in a [CSV file](https://github.com/teseotech/voice_questionnaire_data/blob/main/QuestionnaireRawData.csv), which columns are organized as follow:
