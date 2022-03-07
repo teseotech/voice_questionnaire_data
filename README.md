@@ -1,5 +1,5 @@
 # Voice Questionnaire Data
-**The judgments of ADL-based recommendation to evaluate the politeness and persuasiveness of human and synthetic voice.**
+**The judgments of ADL-based recommendations to evaluate the politeness and persuasiveness of human and synthetic voice.**
 
 > This repository contains the data presented and evaluated in the paper entitled 
 > *"Polite Machines Do It Better? A Language-Based Study on Perceived Politeness and Persuasiveness of Virtual Assistants"*,
@@ -20,7 +20,7 @@ Please, check the paper for more details about the data and our findings.
 
 ## Introduction
 We proposed a questionnaire regarding audio-based recommendations for elderly people, which concerned the Activities of Daily Living (ADL), to 40 Italian volunteers.
-During the questionaries, volunteers judge the politeness and persuasiveness of sentences spoken by a human (i.e., `Eva`) and synthetic (i.e., `Polly`) voice.
+During the questionaries, volunteers judge the politeness and persuasiveness of sentences spoken by a human voice (i.e., `Eva`) and a synthetic one (i.e., `Polly`).
 The sentences give recommendations for maintaining a healthy lifestyle, and the questionnaires are available [here](https://forms.gle/wYMaddQdEXF8Ek8i6) for `Eva`'s voice, and [here](https://forms.gle/bPzJw88PMqJ5siPr7), for `Polly`.
 
 We design recommendations based on different types of communication **strategies**, i.e.,
@@ -49,14 +49,13 @@ The data collected from the questionnaires is available in a [CSV file](https://
  4. **education level**, i.e., `Licenza elementare o media` (elementary degree), `Diploma di maturità` (high school degree), `Laurea triennale` (Bachelor's degree), `Laurea magistrale o ciclo unico (5 anni)` (master degree), `Dottorato di ricerca` (Ph.D.),
  5. **type of voice**, i.e., `Eva` or `Polly`.
 
-The other columns in the CSV file (i.e., 6-58) contain the volunteers' judgements of the recommendation.
+The other columns in the CSV file (i.e., 6-58) contain the volunteers' judgements of the recommendations.
 Generally, each recommendation involves two columns, the first shows the politeness rating, while the second addresses persuasiveness.
-However, we did not ask to judge the persuasiveness for the recommendations involving the `B` intent.
+However, we did not ask to judge the persuasiveness for the recommendations concerning the `B` intent because they do not suggest to take an action in a short period of time.
 
 ### Recommendations
-It follows the list of recommendations in Italians, and the relative English translation.
-The recommendations are organized by intents and strategies.
-The recommendations are organized by intents and strategies, and they are ordered based on CSV column(s).
+It follows the list of recommendations in Italians and the relative English translation.
+The recommendations are organized by intents and strategies, and they are ordered based on CSV column(s), which preserves the order in which they occur in the questionnaires.
 
 | **Column(s)** | **Intent-Strategy** |                          **Italian Recommendation**                         |                       **English Translation**                       |
 |:-------------:|:-------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
